@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>spotify</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="logoandhome">
+        <div><img src="logo.svg" alt="" height="400px" width="400px" /></div>
+        <div><img src="home.svg" alt="" /></div>
+      </div>
+      <div class="signuplogin">
+        <div class="signup">Sign up</div>
+        <div class="login"><button id="btn">Log in</button></div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="left">
+        <div id="library">
+          Your Library
+          <img src="close.png" alt="" height="20px " width="20px" id="close" />
+        </div>
+        <div class="songsname">
+          <ul>
+            <li>
+              <span class="spanplay">Songs</span>
+              <div class="info">
+                <span class="spanplay">Play now</span>
+                <img src="2play.png" alt="" height="20px" width="20px" />
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <footer>
+          <div class="textfooter">
+            Legal Safety & Privacy Center Privacy Policy Cookies <br />
+            About Ads Accessibility
+          </div>
+        </footer>
+      </div>
+      <div class="right">
+        <div class="spotifyplaylists">
+          <div class="hamburger">
+            <img src="hamburger2.png" alt="" height="40px" width="40px" />
+          </div>
+          <h1>Spotify Playlists</h1>
+          <div class="cardcontainer"></div>
+          <div class="playbar">
+            <div class="seekbar"><div class="circle"></div></div>
+            <div class="aboverbar">
+              <div class="songsinfo"></div>
+              <div class="songsbutton">
+                <img
+                  src="previous.png"
+                  alt=""
+                  height="20px"
+                  width="20px"
+                  id="previous"
+                />
+                <img
+                  src="play-button-arrowhead.png"
+                  alt=""
+                  height="20px"
+                  width="20px"
+                  id="playpause"
+                />
+                <img
+                  src="next-button.png"
+                  alt=""
+                  height="23px"
+                  width="23px"
+                  id="next"
+                />
+                <div class="songstime"></div>
+                <!-- <div class="volume"> <input type="range"><img src="volume-up2.png" alt="" height="20px" width="20px"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
