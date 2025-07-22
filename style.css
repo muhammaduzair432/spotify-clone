@@ -42,6 +42,10 @@ nav{
     color: #a0a0a0;
     font-weight: bold;
 }
+.signup:hover{
+  color: white;
+  text-decoration: underline;
+}
 .login{
   
 }
