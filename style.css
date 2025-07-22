@@ -50,13 +50,16 @@ nav{
   
 }
 #btn{
-      height: 6vh;
+      height: 5vh;
     width: 6.5vw;
     border: none;
     border-radius: 2vw;
     font-size: 1.2rem;
     font-weight: bold;
     
+}
+#btn:hover{
+  font-size: 1.3rem ;
 }
 .container{
     display: flex;
